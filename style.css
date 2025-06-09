@@ -57,6 +57,7 @@
   font-size: 1em !important;
   padding: 0 2px !important;
   color: #181f36;
+  font-family: 'Orbitron', 'Segoe UI', Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 }
 
 /* --- Sidebar Labels --- */
@@ -68,6 +69,7 @@
   padding: 0 2px !important;
   background: none;
   letter-spacing: 1px;
+  font-family: 'Montserrat', Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 }
 
 /* --- Sidebar Values --- */
@@ -196,7 +198,7 @@ body {
   background: url('https://i.imgur.com/3ppFPQm.jpeg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 }
 .index-bar {
   display: flex;
@@ -358,6 +360,7 @@ body {
   border: none;
   outline: none;
   cursor: text;
+  font-family: 'Orbitron', 'Segoe UI', Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 }
 /* Optional: Make sure the span inside the title is also readable */
 #huntNumber {
@@ -389,6 +392,7 @@ body {
   color: #a0b8e0;
   margin-bottom: 2px;
   letter-spacing: 1px;
+  font-family: 'Montserrat', Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 }
 .sidebar-value {
   font-size: 1.15em;
