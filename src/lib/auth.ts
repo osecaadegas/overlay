@@ -58,19 +58,5 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/",
   },
-  cookies: {
-    sessionToken: {
-      name: `next-auth.session-token`,
-      options: {
-        httpOnly: true,
-        sameSite: "lax",
-        path: "/",
-        secure: true,
-        domain: process.env.NEXTAUTH_URL?.includes('vercel.app') 
-          ? '.vercel.app' 
-          : undefined,
-      },
-    },
-  },
   secret: process.env.NEXTAUTH_SECRET,
 };
